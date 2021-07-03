@@ -1,7 +1,7 @@
 import "dart:io";
 
 void main() {
-  String w = stdin.readLineSync();
+  String w = stdin.readLineSync()!;
   int output = rainySeason(w);
   print(output);
 }
